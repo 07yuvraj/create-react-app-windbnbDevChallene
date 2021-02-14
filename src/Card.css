@@ -18,6 +18,10 @@
     cursor: pointer;
 }
 
+.location_details{
+    cursor: pointer;
+}
+
 .room{
     width: 100%;
     max-width: 395px;
