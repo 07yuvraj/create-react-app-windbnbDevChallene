@@ -20,7 +20,7 @@ export default function ActiveSearchBar({setactive,rooms,setrooms,guest,setguest
                 <div className="location_options">
                     {locations.map(location => (
                         <ul className="locations">
-                            <li key={location.city} onClick={() => {
+                            <li className="location_detail" key={location.city} onClick={() => {
                                 if (rooms !== location.city) {
                                     setrooms(location.city)
                                 }
